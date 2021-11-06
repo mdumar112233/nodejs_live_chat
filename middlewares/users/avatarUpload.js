@@ -16,7 +16,7 @@ function avatarUpload(req, res, next) {
                     avatar: {
                         msg: err.message,
                     },
-                }
+                },
             });
         } else {
             next();
